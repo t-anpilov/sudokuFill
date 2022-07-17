@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+.square {
+  border: 3px solid black;  
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.cell {
+  border: 1px solid black;  
+  display: flex;  
+}
+
+.cellNumber {
+  margin: auto;
+  font-size: 1.5rem;
+}
+
+.field {
+  width: 600px;
+  height: 600px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  border: 3px solid black; 
+}
